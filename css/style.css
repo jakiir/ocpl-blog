@@ -12,6 +12,10 @@ h5 {
 ol, ul {
     list-style: none;
 }
+a:focus, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
 .cmo-page-social-share {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -277,7 +281,7 @@ nav {
     font-weight: 700;
 }
 header#cmo-header nav #logo-header {
-    margin-top: 31.5px;
+    margin-top:0;
     float: left;
 }
 header#cmo-header #logo-header span {
@@ -288,7 +292,7 @@ header#cmo-header #logo-header span:first-child {
     width: auto;
 }
 header#cmo-header nav #logo-header {
-    margin-top: 31.5px;
+    margin-top:0;
 }
 header#cmo-header #logo-header span img {
     display: block;
@@ -336,6 +340,33 @@ header#cmo-header nav #nav-link-search.visible-search #nav-search-container {
     -moz-transition: margin-top 0.4s ease-in-out, opacity 0.4s ease-in-out, visibility 0s ease-in-out 0s;
     -o-transition: margin-top 0.4s ease-in-out, opacity 0.4s ease-in-out, visibility 0s ease-in-out 0s;
     transition: margin-top 0.4s ease-in-out, opacity 0.4s ease-in-out, visibility 0s ease-in-out 0s;
+}
+
+header#cmo-header nav .nav-wrapper {
+    float: right;
+}
+.header-beautiful-text{
+	display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 76%;
+    margin-top: 20px;
+	font-size: 30px;
+    color: #31c5c7;
+	
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
 #nav-search-container input[type=text]{
